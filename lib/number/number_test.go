@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestNumber(t *testing.T) {
+func Tr(t *testing.T) {
 	cases := []struct {
 		name     string
 		input    string
@@ -15,7 +15,7 @@ func TestNumber(t *testing.T) {
 	}{
 		{
 			name:  "should succeed to parse number",
-			input: "33678342311",
+			input: "2029355855",
 			expected: &Number{
 				Valid:         true,
 				RawLocal:      "0678342311",

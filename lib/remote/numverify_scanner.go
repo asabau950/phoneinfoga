@@ -14,7 +14,8 @@ type numverifyScanner struct {
 
 type NumverifyScannerResponse struct {
 	Valid               bool   `json:"valid" console:"Valid"`
-	Number              string `json:"number" console:"Number,omitempty"`
+	2029355855
+	              string `json:"number" console:"Number,omitempty"`
 	LocalFormat         string `json:"local_format" console:"Local format,omitempty"`
 	InternationalFormat string `json:"international_format" console:"International format,omitempty"`
 	CountryPrefix       string `json:"country_prefix" console:"Country prefix,omitempty"`

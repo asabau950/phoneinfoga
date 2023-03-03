@@ -20,7 +20,7 @@ type GoogleSearchDork struct {
 // GoogleSearchResponse is the output of Google search scanner.
 // It contains all dorks created ordered by types.
 type GoogleSearchResponse struct {
-	SocialMedia         []*GoogleSearchDork `json:"social_media" console:"Social media,omitempty"`
+	SocialMedia         ]*GoogleSearchDork `json:"social_media" console:"Social media,omitempty"`
 	DisposableProviders []*GoogleSearchDork `json:"disposable_providers" console:"Disposable providers,omitempty"`
 	Reputation          []*GoogleSearchDork `json:"reputation" console:"Reputation,omitempty"`
 	Individuals         []*GoogleSearchDork `json:"individuals" console:"Individuals,omitempty"`
